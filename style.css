@@ -1138,8 +1138,8 @@ span::before {
 
  @media (max-width: 371px) {
     .home {
-        justify-content:;
-    } */
+        justify-content:center;
+    } 
 
     .home-content {
         display: block;
@@ -1152,19 +1152,16 @@ span::before {
         font-size: 5rem;
     } 
 
-   
-
-
  /* KEYFRAME ANIMATION */
-@keyframes homeBgText {
+@keyframes homeBgText{
     0%,
     10%,
     100% {
         background-position: -33rem 0;
     }
 
-    65%,
-    85% {
+    65%,85% {
         background-position: 0 0;
     }
+ }
 }
